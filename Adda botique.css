@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(247, 232, 213);
+    margin: 0px;
+}
+ .logo{
+    text-align: center;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(206, 133, 39);
+    object-fit: cover;
+   
+} 
+#head
+{ 
+align-items: center;
+display: flex;
+gap: 20px;
+padding: 15px;
+justify-content: center;
+font-family: 'Times New Roman', Times, serif;
+background-color: rgba(135, 109, 73, 0.797);
+height: 65px;
+
+
+
+}
+
+.dropbtn{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: underline;
+
+}
+ 
+.icons{
+  text-align: center;
+  background-color: rgba(135, 109, 73, 0.797);
+   padding:5px;
+   
+}
+
+.icons a{
+color: black;
+margin: 15px;
+padding: 10px;
+}
+
+.icons a:hover{
+    cursor: pointer;
+  color: rgba(1, 1, 0, 0.511);
+   
+}
+
+#layout{
+    width: 100%;
+    position: relative;
+    
+}
+
+#layout img{
+    width: 100%;
+    height: auto;     
+    object-fit: cover;
+    border-radius: 0;
+    object-fit: cover;
+}
+
+.aaa{
+    position:absolute;
+    top:50%;
+    left:8%;
+    transform:translateY(-50%);
+    width:35%;
+}
+
+.tagline{
+    color:#654520;
+    font-style:italic;
+    font-size:22px;
+    margin-bottom:10px;
+}
+
+.aaa h1{
+    font-size:65px;
+    font-family:Georgia, serif;
+    color:#2d1d16;
+    line-height:1.2;
+    margin:0;
+}
+
+.description{
+    font-size:20px;
+    color:#41291c;
+    line-height:1.8;
+    margin-top:20px;
+    margin-bottom:35px;
+}
+
+.aaa button{
+    background:#754e3d;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:30px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.aaa button:hover{
+    background:#32251e;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgba(131, 111, 71, 0.947);
+min-width: 220px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+z-index: 1000;
+
+}
+
+.dropdown-content a {
+display: block;
+padding: 12px 18px;
+text-decoration: none;
+color: black;
+background-color: transparent;
+}
+
+.dropdown-content a:hover {
+background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.exploreBtn {
+display: inline-block;
+padding: 20px 45px;
+background: #76534d;
+color: white;
+text-decoration: none;
+border-radius: 40px;
+font-size: 18px;
+}
