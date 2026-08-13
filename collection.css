@@ -1,0 +1,594 @@
+body{
+    background-color: rgb(247, 232, 213);
+    margin: 0px;
+}
+
+ .logo{
+    text-align: center;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(206, 133, 39);
+    object-fit: cover;
+   
+} 
+#head
+{ 
+align-items: center;
+display: flex;
+gap: 20px;
+padding: 15px;
+justify-content: center;
+font-family: 'Times New Roman', Times, serif;
+background-color: rgba(135, 109, 73, 0.797);
+height: 65px;
+
+
+
+}
+ 
+.icons{
+  text-align: center;
+  background-color: rgba(135, 109, 73, 0.797);
+   padding:5px;
+}
+
+.dropbtn{
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: underline;
+
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgba(131, 111, 71, 0.947);
+min-width: 220px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+z-index: 1000;
+
+}
+
+.dropdown-content a {
+display: block;
+padding: 12px 18px;
+text-decoration: none;
+color: black;
+background-color: transparent;
+}
+
+.dropdown-content a:hover {
+background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.icons a{
+color: black;
+margin: 15px;
+padding: 10px;
+}
+
+.icons a:hover{
+    cursor: pointer;
+  color: rgba(1, 1, 0, 0.511);
+   
+}
+
+#layout {
+
+    width: 100%;
+
+    position: relative;
+
+}
+
+
+#layout img {
+
+    width: 100%;
+
+    height: auto;
+
+    object-fit: cover;
+
+    border-radius: 0;
+
+}
+
+
+.aaa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 8%;
+
+    transform: translateY(-50%);
+
+    width: 35%;
+
+}
+
+
+.tagline {
+
+    color: #654520;
+
+    font-style: italic;
+
+    font-size: 22px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.aaa h1 {
+
+    font-size: 65px;
+
+    font-family: Georgia, serif;
+
+    color: #2d1d16;
+
+    line-height: 1.2;
+
+    margin: 0;
+
+}
+
+
+.description {
+
+    font-size: 20px;
+
+    color: #41291c;
+
+    line-height: 1.8;
+
+    margin-top: 20px;
+
+    margin-bottom: 35px;
+
+}
+
+.aaa button {
+
+    background: #754e3d;
+
+    color: white;
+
+    border: none;
+
+    padding: 15px 35px;
+
+    font-size: 18px;
+
+    border-radius: 30px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.aaa button:hover {
+
+    background: #32251e;
+
+}
+
+#collection {
+
+    display: none;
+
+    padding: 70px 6%;
+
+    background-color: rgb(247, 232, 213);
+
+    text-align: center;
+
+}
+
+
+#collection h2 {
+
+    font-family: Georgia, serif;
+
+    font-size: 42px;
+
+    color: #2d1d16;
+
+    margin-bottom: 10px;
+
+}
+
+
+.collection-intro {
+
+    font-size: 18px;
+
+    color: #654520;
+
+    margin-bottom: 45px;
+
+}
+
+.collection-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+
+
+.collection-card {
+
+    background-color: #fffaf4;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 15px rgba(80, 50, 30, 0.15);
+
+    transition: 0.3s;
+
+}
+
+
+.collection-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 8px 22px rgba(80, 50, 30, 0.25);
+
+}
+
+
+.collection-card img {
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 0;
+
+    display: block;
+
+}
+
+
+.collection-card h3 {
+
+    font-family: Georgia, serif;
+
+    font-size: 25px;
+
+    color: #3b251b;
+
+    margin: 20px 10px 8px;
+
+}
+
+
+.collection-card p {
+
+    font-size: 16px;
+
+    color: #654520;
+
+    line-height: 1.5;
+
+    margin: 0 20px 18px;
+
+}
+
+.collection-card button {
+
+    background-color: #754e3d;
+
+    color: white;
+
+    border: none;
+
+    padding: 11px 24px;
+
+    border-radius: 25px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    margin-bottom: 25px;
+
+    transition: 0.3s;
+
+}
+
+
+.collection-card button:hover {
+
+    background-color: #32251e;
+
+}
+
+#popup {
+
+    display: none;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.45);
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1000;
+
+}
+
+#popupBox {
+
+    width: 550px;
+
+    max-width: 85%;
+
+    background-color: #fffaf4;
+
+    padding: 45px;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+
+    position: relative;
+
+}
+
+#closeBtn {
+
+    position: absolute;
+
+    right: 20px;
+
+    top: 15px;
+
+    border: none;
+
+    background: none;
+
+    font-size: 30px;
+
+    cursor: pointer;
+
+    color: #754e3d;
+
+}
+
+
+#closeBtn:hover {
+
+    color: black;
+
+}
+
+
+
+
+
+#popupDetails h3 {
+
+    font-family: Georgia, serif;
+
+    font-size: 32px;
+
+    color: #2d1d16;
+
+    margin-bottom: 20px;
+
+}
+
+
+#popupDetails p {
+
+    font-size: 18px;
+
+    color: #654520;
+
+    margin: 15px;
+
+}
+
+
+
+#orderBtn {
+
+    background-color: #754e3d;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 30px;
+
+    border-radius: 25px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+
+}
+
+
+#orderBtn:hover {
+
+    background-color: #32251e;
+
+}
+
+
+#popupDetails input {
+
+    width: 80%;
+
+    padding: 12px;
+
+    margin: 6px;
+
+    border: 1px solid #c7aa91;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+
+}
+
+
+#popupDetails input:focus {
+
+    outline: none;
+
+    border: 2px solid #754e3d;
+
+}
+
+
+#placeOrderBtn {
+
+    background-color: #754e3d;
+
+    color: white;
+
+    border: none;
+
+    padding: 13px 30px;
+
+    border-radius: 25px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+
+}
+
+
+#placeOrderBtn:hover {
+
+    background-color: #32251e;
+
+}
+
+
+
+/* 5. FABRICS SECTION DISPLAY STYLE */
+#fabricssection {
+    padding: 60px 20px 10px 20px;
+}
+#fabricssection h2, #fabricssection .section-intro {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: #2d1d16;
+}
+#fabricssection h2 { font-size: 42px; margin-bottom: 10px; }
+#fabricssection .section-intro { font-size: 18px; color: #654520; }
+
+.fabric-display-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    max-width: 1200px;
+    margin: 20px auto 60px auto;
+    padding: 0 20px;
+}
+.fabric-item-card {
+    background-color: #fffaf4;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(80, 50, 30, 0.15);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.fabric-media-box {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+.fabric-media-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.fabric-text-box {
+    padding: 22px;
+}
+.fabric-text-box h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #3b251b;
+    margin: 0 0 5px 0;
+}
+.fabric-subtext {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #754e3d;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+.fabric-details {
+    font-size: 15px;
+    color: #654520;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* 6. MOBILE RESPONSIF ADJUSTMENTS */
+@media (max-width: 900px) {
+    .collection-container, .fabric-display-grid {
+        grid-template-columns: 1fr;
+    }
+    .aaa { width: 80%; left: 10%; }
+    .aaa h1 { font-size: 38px; }
+}
